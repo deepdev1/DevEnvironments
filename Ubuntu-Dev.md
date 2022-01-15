@@ -60,4 +60,10 @@
   sudo apt install -y build-essential manpages-dev
   ```
 
+## Ubuntu Customizations
+
+- Dock - minimize opened window on click
+  ```bash
+  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+  ```
   
