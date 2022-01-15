@@ -6,4 +6,5 @@ sudo apt install -y zsh-syntax-highlighting && echo "source /usr/share/zsh-synta
 
 
 
+
 #source: https://linuxhint.com/install_zsh_shell_ubuntu_1804/
