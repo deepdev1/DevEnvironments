@@ -3,7 +3,7 @@
 
 ## Editors, IDEs and Terminals
 
-- Basic Tools
+- Basic Utilities
   ```bash
   sudo apt update && sudo apt install -y openssh-server curl git jq
   ```
