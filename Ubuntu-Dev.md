@@ -1,8 +1,12 @@
 # Development Environments - Ubuntu
 
 
-
 ## Editors, IDEs and Terminals
+
+- Basic Tools
+  ```bash
+  sudo apt update && sudo apt install -y openssh-server curl git jq
+  ```
 
 - IntelliJ Idea
 
