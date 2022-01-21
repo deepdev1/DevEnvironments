@@ -60,6 +60,14 @@
   ```bash
   gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
   ```
+  
+- Terminal
+  -  ```bash
+     sudo apt update && sudo apt install -y guake
+     #Themes: Hemisu Dark
+     #Shortcuts: visibility(Shift+F12)
+     ```
+  
 - Zsh
     - ```bash
       sudo apt update && sudo install -y zsh fonts-powerline && sudo chsh -s $(which zsh) $(whoami)
