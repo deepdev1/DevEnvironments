@@ -1,7 +1,7 @@
 # Development Environments - Ubuntu
 
 
-## Editors, IDEs and Terminals
+## Editors, IDEs
 
 - Basic Utilities
   ```bash
@@ -24,12 +24,6 @@
 
   ```bash
   sudo snap install code --classic
-  ```
-
-- Zsh
-
-  ```bash
-  wget -O - https://raw.githubusercontent.com/deepdev1/DevEnvironments/main/zsh-installation-ubuntu.sh | bash
   ```
 
   
@@ -66,6 +60,20 @@
   ```bash
   gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
   ```
+- Zsh
+    - ```bash
+      sudo apt update && sudo install -y zsh fonts-powerline && sudo chsh -s $(which zsh) $(whoami)
+      sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+      ```
+    - ```bash
+      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+      #ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
+      #p10k configure
+      ```
+    - ```bash
+      git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+      #plugins=(git zsh-autosuggestions) in ~/.zshrc
+      ```
   
 ## Utilities
 
@@ -80,5 +88,5 @@
   ```
   
 - Anydesk
-  [Deb-package](https://anydesk.com/en/downloads/linux)
+  [deb-package](https://anydesk.com/en/downloads/linux)
    
