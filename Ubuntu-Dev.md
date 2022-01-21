@@ -67,3 +67,18 @@
   gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
   ```
   
+## Utilities
+
+- WPS Office
+  ```bash
+  sudo snap install wps-2019-snap
+  ```
+  
+- Asbru Connection Manager
+  ```bash
+  curl -1sLf 'https://dl.cloudsmith.io/public/asbru-cm/release/cfg/setup/bash.deb.sh' | sudo -E bash &&  sudo apt install -y asbru-cm 
+  ```
+  
+- Anydesk
+  [Deb-package](https://anydesk.com/en/downloads/linux)
+   
