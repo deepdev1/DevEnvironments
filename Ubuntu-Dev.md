@@ -85,7 +85,7 @@
   
 - Zsh
     - ```bash
-      sudo apt update && sudo install -y zsh fonts-powerline && sudo chsh -s $(which zsh) $(whoami)
+      sudo apt update && sudo apt install -y zsh fonts-powerline && sudo chsh -s $(which zsh) $(whoami)
       sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
       ```
     - ```bash
