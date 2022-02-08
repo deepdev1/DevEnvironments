@@ -53,7 +53,21 @@
   ```bash
   sudo apt install -y build-essential manpages-dev
   ```
-  
+
+## Softwares
+
+- MongoDB
+  - Bare metal
+    ```bash
+    curl -fsSL https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add - && \
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list && \
+    sudo apt update && apt install -y mongodb-org && \
+    sudo systemctl enable mongod --now && \
+    mongod --version
+    ```
+    source: [digital-ocean](https://do.co/34JQf4c)
+    
+    
 ## Services
 
 - Docker
